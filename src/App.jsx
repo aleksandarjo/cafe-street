@@ -1,11 +1,13 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 const App = () => {
   return (
-    <div className="mx-auto max-w-full px-10 md:max-w-6xl xl:px-0">
+    <div className="mx-auto px-10 2xl:px-0">
       <Header />
       <Hero />
+      <Services />
     </div>
   );
 };

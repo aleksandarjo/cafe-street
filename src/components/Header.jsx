@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="py-5">
-      <div className="flex items-center justify-between ">
+      <div className="container mx-auto flex items-center justify-between ">
         <a href="#">
           <img src={logo} alt="logo" />
         </a>
@@ -26,7 +26,7 @@ const Header = () => {
           {navigation.map((item) => (
             <li key={item.id}>
               <a
-                className="transition-colors hover:text-orange-300"
+                className="transition-colors hover:text-primary"
                 href={item.url}
               >
                 {item.title}
@@ -91,7 +91,7 @@ const Header = () => {
               </div>
               <button className="relative z-10 block md:hidden">
                 <IoCartOutline className="text-3xl" />
-                <div className="absolute right-0 top-0 h-3 w-3 rounded-full border border-white bg-orange-300"></div>
+                <div className="absolute right-0 top-0 h-3 w-3 rounded-full border border-white bg-primary"></div>
               </button>
             </div>
           </nav>

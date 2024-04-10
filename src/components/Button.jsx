@@ -6,7 +6,7 @@ const Button = ({ children, className, onClick, href, px, icon, wnh }) => {
       {children}
       {icon && (
         <span
-          className={`flex ${wnh ? `h-${wnh} w-${wnh}` : "h-8 w-8"} items-center justify-center  rounded-full bg-orange-400 text-xl`}
+          className={`flex ${wnh ? `h-${wnh} w-${wnh}` : "h-8 w-8"} bg-primary items-center  justify-center rounded-full text-xl`}
         >
           {icon}
         </span>
